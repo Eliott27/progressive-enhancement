@@ -1,0 +1,80 @@
+p {
+    font-family: serif;
+    line-height: 2.5;
+    font-size: 16px;
+    color: darkred;
+}
+
+a {
+    font-size: 3em;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+a:hover {
+    color: orangered;
+}
+
+body {
+    max-width: 90%;
+    margin: auto;
+    background: -webkit-linear-gradient(90deg, rgb(237, 22, 22), rgb(90, 74, 20));
+    background: linear-gradient(90deg, rgb(237, 22, 22), rgb(90, 74, 20));
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+    background-position: bottom right;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+blockquote {
+    max-width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background-color: lightgray;
+    border-left: solid 3px;
+    border-left-color: firebrick;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+}
+
+.farmer {
+    border-left-color: darkgreen;
+}
+
+.villagers {
+    border-left-color: mediumblue;
+}
+
+span.good {
+    color: green;
+}
+
+span.bad {
+    color: red;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+  
+tbody tr:nth-child(even) {
+    background-color: gray;
+}
+
+.firstp {
+    font-weight: bold;
+}
+
+.image1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width : 500px;
+    height : 500px;
+}
